@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Menu */
+/* #region */
+.menu {
+  width: 40%;
+  margin : auto;
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+  background: #f2f2f2;
+  border-radius: 5px;
+  overflow: hidden;
+}
+thead {
+  background: #FF5733;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.menu tr {
+  display: grid;
+  grid-template-columns: 7fr 2fr 3fr;
+}
+td {
+  padding: 5px;
+}
+.align-center {
+  text-align: center;
+  margin: auto;
+}
+.addButton button{
+  margin: 0 0.5rem 0 0.5rem;
+}
+/* #endregion */
+
+/* Orders */
+/* #region */
+.orders {
+  width: 40%;
+  margin: auto;
+}
+.orders p {
+  text-align: right;
+  margin: 0;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+/* #endregion */
+
+/* Cart */
+/* #region */
+.cart {
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
+}
+.cart p {
+  text-align: left;
+  margin: 0;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+.relative {
+  position: relative;
+  padding: 10px;
+  height: 50px;
+}
+.cart .qty-btn button {
+  margin: 0 0.5rem 0 0.5rem;
+}
+.cart .cart-total {
+  position: absolute;
+  left: 10px;
+  padding: 5px;
+}
+.cart .cart-btn {
+  position: absolute;
+  right: 10px;
+}
+.page-empty-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.green {
+  color: #27B744;
+  font-size: 1.2rem;
+}
+/* #endregion */
